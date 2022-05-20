@@ -90,6 +90,7 @@ footer a {
 .main-nav {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .site-nav {
@@ -108,6 +109,7 @@ footer a {
 .auth-nav {
   display: flex;
   margin-left: auto;
+  padding: 0;
 }
 
 .auth-nav > li {
@@ -153,11 +155,16 @@ footer a {
   color: var(--primary-accent-color);
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.auth-nav a:hover,
+.auth-nav a:focus {
   color: var(--primary-accent-color);
+  fill: var(--primary-accent-color);
 }
-
+.tell,
+.mail {
+  fill: currentColor;
+  margin-right: 10px;
+}
 /* ----------------------------------------------------- 1 -------------------------------------------------- */
 
 /* < !-- Герой начало --> */
