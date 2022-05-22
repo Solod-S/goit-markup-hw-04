@@ -414,7 +414,7 @@ footer a {
   padding: 0;
 }
 
-.clients-item {
+.clients-item a {
   display: flex;
   justify-content: center;
 
