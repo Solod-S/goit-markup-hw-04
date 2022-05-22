@@ -246,16 +246,6 @@ footer a {
 .features-list > li {
 }
 
-/* .features-colum::before {
-  display: block;
-  height: 120px;
-  content: '';
-  background-color: #f5f4fa;
-  margin-bottom: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
-
 .features-icon-thmb {
   background-color: #f5f4fa;
   display: flex;
@@ -405,6 +395,33 @@ footer a {
 
 .team-social-link:not(:last-child) {
   margin-right: 10px;
+}
+
+/* Постоянные клиенты */
+
+.clients-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.clients-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.clients-link {
+  display: block;
+  padding: 0;
 }
 
 /* < !--Футер--> */
