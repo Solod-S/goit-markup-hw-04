@@ -252,16 +252,13 @@ footer a {
 .features-icon-thmb {
   background-color: #f5f4fa;
   display: flex;
-  width: 270px;
   height: 120px;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   margin-bottom: 30px;
 }
 
 .features-icon {
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .features-colum {
@@ -361,6 +358,7 @@ footer a {
 }
 
 .member-position {
+  margin-bottom: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 
@@ -371,11 +369,10 @@ footer a {
   padding-bottom: 30px;
 }
 
-.team-social-thmb {
+.team-social-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 16px;
 }
 
 .team-social-link {
@@ -494,7 +491,7 @@ footer a {
   background-color: var(--primary-accent-color);
 }
 
-.footer-social-link:not(:last-child) {
+.footer-social-item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -547,6 +544,10 @@ address p {
 }
 /* ----------------------------------------------------- 2 -------------------------------------------------- */
 /* < !-- Портфолио --> */
+.obvodka .portfolio-link {
+  display: block;
+}
+
 .portfolio-buttons {
   display: flex;
   justify-content: center;
@@ -571,8 +572,8 @@ address p {
   cursor: pointer;
 }
 
-.obvodka:hover,
-.obvodka:focus {
+.obvodka .portfolio-link:hover,
+.obvodka .portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
