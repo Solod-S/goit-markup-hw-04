@@ -400,6 +400,10 @@ footer a {
   padding: 0;
 }
 
+.team-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: var(--primary-accent-color);
@@ -465,6 +469,7 @@ footer a {
 
 .footer {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-social {
